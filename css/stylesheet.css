@@ -1,0 +1,26 @@
+.wrapper.home {
+    display: grid;
+    grid-template-columns: 155px auto;
+    gap: 15px;
+    padding: 15px;
+}
+
+.wrapper.projects {
+    display: grid;
+    grid-template-columns: auto 54rem auto;
+}
+
+.wrapper.projects h1 {
+    text-align: center;
+    grid-column: 1 / 4;
+}
+
+.wrapper.projects > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 2 / 3;
+}
+
+body {
+    font-family: "Roboto";
+}
